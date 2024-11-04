@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="recyclerView" type="id">recycler</item>
+    <item name="editTextTask" type="id">edit</item>
+    <item name="buttonAdd" type="id">button</item>
+</resources>
