@@ -1,4 +1,5 @@
 <resources>
     <string name="app_name">LISTA TAREFAS</string>
     <string name="excluir">Excluir</string>
+    <string name="deletar">Excluir</string>
 </resources>
