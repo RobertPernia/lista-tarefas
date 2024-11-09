@@ -10,7 +10,7 @@ android {
     defaultConfig {
         applicationId = "com.robert.listatarefas"
         minSdk = 24
-        //noinspection ExpiredTargetSdkVersion
+        //noinspection OldTargetApi,ExpiredTargetSdkVersion
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -65,6 +65,7 @@ dependencies {
     implementation(libs.androidx.recyclerview)
     implementation(libs.androidx.appcompat)
     implementation(libs.androidx.constraintlayout)
+    implementation(libs.cardview.v7)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)
